@@ -1,0 +1,1 @@
+start d:\Programs\mpvplayer\mpv.exe --script=D:\Repos\interSubs\interSubs.lua d:\dev\mvp.test\test.mp4

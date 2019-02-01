@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{927961EC-CE5C-403E-BA89-29876768EAA8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		interSubs.lua = interSubs.lua
+		interSubs.py = interSubs.py
+		interSubs_config.py = interSubs_config.py
+		README.md = README.md
+		run.bat = run.bat
+		test.lua = test.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{03B17EF4-F568-4385-9A09-460FD35FEF46}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Keyboard Control.md = docs\Keyboard Control.md
+		docs\readme2.md = docs\readme2.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{4D560C23-7981-403B-A52E-3470A52402FD}"
+	ProjectSection(SolutionItems) = preProject
+		examples\boss-key.lua = examples\boss-key.lua
+		examples\copy-permalink.lua = examples\copy-permalink.lua
+		examples\pause-indicator.lua = examples\pause-indicator.lua
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03B17EF4-F568-4385-9A09-460FD35FEF46} = {927961EC-CE5C-403E-BA89-29876768EAA8}
+		{4D560C23-7981-403B-A52E-3470A52402FD} = {927961EC-CE5C-403E-BA89-29876768EAA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5867451E-ABE6-44D0-BB86-3ED851658EA1}
+	EndGlobalSection
+EndGlobal
